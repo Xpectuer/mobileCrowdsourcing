@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "eureka.hostname",
+      "type": "java.lang.String",
+      "description": "Description for eureka.hostname."
+    },
+    {
+      "name": "eureka.serviceUrl.defaultZone",
+      "type": "java.lang.String",
+      "description": "Description for eureka.serviceUrl.defaultZone."
+    }
+  ] }

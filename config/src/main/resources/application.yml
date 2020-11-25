@@ -1,0 +1,38 @@
+server:
+    port: 8888
+
+
+spring:
+    cloud:
+        config:
+            label: main
+            server:
+                     encrypt:
+                       enabled: true
+                     git:
+                        uri: https://gitee.com/xpecuter/mobile-crowdsourcing-config-repo
+                        search-paths: authservice
+                        username:
+                        password:
+                        skip-ssl-validation: true
+                        timeout: 5
+                        refresh-rate: 5
+
+# TO expose some interfaces to Ourside
+# WARNING: You Should close them in Prod ENVIRONMENT FOR SAFETY
+#management:
+#    endpoints:
+#        web:
+#            exposure:
+#                include: env
+
+
+
+
+
+
+
+
+
+
+

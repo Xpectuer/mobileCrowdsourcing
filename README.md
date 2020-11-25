@@ -1,0 +1,1 @@
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [t_user

@@ -1,0 +1,57 @@
+server:
+    port: 8888
+spring:
+    cloud:
+        config:
+            discovery:
+                enabled: true
+            label: main
+            profile: dev
+            server:
+
+                git:
+                    uri: https://gitee.com/xpecuter/mobile-crowdsourcing-config-repo
+                    search-paths: authservice
+                    #force-pull: true
+                    username:
+                    password:
+                    refresh-rate: 5
+
+
+
+#                        username: zhengjiaye@126.com
+#                        password: zjy00322
+#management:
+#    endpoints:
+#        web:
+#            exposure:
+#                include: env
+
+#                        force-pull: true
+#                        refresh-rate: 5
+
+
+
+
+
+#eureka:
+#  instance:
+#      prefer-ip-address: true
+#  client:
+#      register-with-eureka: true
+#      fetch-registry: true
+#      service-url:
+#          defaultZone: http://localhost:8761
+
+
+
+
+#                git:
+#                    uri: file:///Users/alex/IdeaProjects/mobile-crowdsourcing-config-repo
+#                    search-paths: authservice
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="mobile" uuid="28228def-414b-4e30-bc06-929d81a29201">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:mobile</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mobile@39.108.125.149" uuid="9c56bfb0-cf28-4ad4-bf74-4e6e0453745f">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://39.108.125.149:3306/mobile</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mobile@localhost" uuid="5e397e0a-2681-474b-a024-4119f777eb06">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/mobile</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,45 @@
+version: "2.2"
+services:
+  eurekaserver:
+    image: noobi/eureka-server:mobile
+    ports:
+      - "8761:8761"
+
+  configserver:
+    image: noobi/configsvr:mobile
+    ports:
+      - "8888:8888"
+
+    hostname: configserver
+    environment:
+      EUREKASERVER_URI:  "http://eurekaserver:8761/eureka/"
+      EUREKASERVER_PORT: "8761"
+      ENCRYPT_KEY: "ALEXZHENG"
+
+  database:
+    image: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=mobile
+
+  authservice:
+    image: noobi/authservice:mobile
+
+    container_name: authservice
+    ports:
+      - "8081:8081"
+    environment:
+      PROFILE: "default"
+      SERVER_PORT: "8081"
+      CONFIGSERVER_URI: "http://configserver:8888"
+      EUREKASERVER_URI: "http://eurekaserver:8761/eureka/"
+      EUREKASERVER_PORT:   "8761"
+      CONFIGSERVER_PORT:   "8888"
+      DATABASESERVER_PORT: "3306"
+      ENCRYPT_KEY: "ALEXZHENG"
+#
+#networks:
+#  eureka-net:
+#    driver: bridge
