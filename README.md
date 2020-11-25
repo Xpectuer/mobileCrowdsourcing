@@ -1,1 +1,44 @@
-org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [t_user
+# 移动众包项目仓库
+
+这是浙江工业大学计算机学院下属项目
+### 基于移动众包的车联网感知系统 
+项目的后台仓库
+
+以下，按照**优先级排序** 列出了任务清单
+（每周更新）  
+综合：
++ [ ] 设计统一的数据接口
+
+1. 基础平台搭建  
+    + [x] 服务注册中心（目前是Eureka，由于是阿里云，后期会更换）  
+    + [x] 基础配置中心（数据源）  
+    + [x] 服务调用RPC建立  
+    + [x] 目前所有子项目docker配置    
+    TODO：
+    + [ ] 注册中心更换
+    + [ ] 服务网关的搭建
+    + [ ] 消息队列
+    + [ ] 搭建Stream服务，利用MQ实现配置订阅与自动刷新
+    + [ ] 更新配置中心、RPC
+    + [ ] 服务熔断
+    + [ ] CI/CD
+    + [ ] 部署到K8S
+
+    
+2. 登录接口（根据OAuth2.0重构）  
+     TODO：
+      + [ ] authservice重构OAuth2.0实现权限分配
+      + [ ] 授权映射数据库建立
+      + [ ] 主从数据库读写分离设计实现
+
+3. Redis交互项目
+      TODO:
+      + [x] redis单机docker配置 
+      + [ ] redis集群设计研判（根据内存、CPU核数购买相应实例） 
+      + [ ] redis cluster切片集群调试
+      + [ ] redis client 调试
+     
+4. Spark交互项目
+    (豆腐)
+5. 算法
+（谷雨）
