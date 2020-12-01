@@ -38,7 +38,5 @@
       + [ ] redis cluster切片集群调试
       + [ ] redis client 调试
      
-4. Spark交互项目
-    (豆腐)
-5. 算法
-（谷雨）
+4. Spark交互项目(豆腐)
+5. 算法（谷雨）
