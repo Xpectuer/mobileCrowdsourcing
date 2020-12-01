@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="restproducer4test" />
-        <module name="config" />
-        <module name="eureka" />
         <module name="authservice" />
+        <module name="eureka" />
+        <module name="config" />
       </profile>
     </annotationProcessing>
   </component>
