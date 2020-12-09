@@ -7,10 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="restproducer4test" />
+        <module name="crdsrcing-api" />
+        <module name="crdsrcing-service" />
+        <module name="start" />
         <module name="authservice" />
+        <module name="crdsrcing-manager" />
+        <module name="crdsrcing-demo" />
         <module name="eureka" />
+        <module name="restproducer4test" />
+        <module name="crdsring-consumer" />
+        <module name="dubbo-sample-api" />
+        <module name="crdsrcing-web" />
         <module name="config" />
+        <module name="crdsrcing-dao" />
       </profile>
     </annotationProcessing>
   </component>

@@ -26,6 +26,9 @@
         <module>authservice</module>
         <module>config</module>
         <module>restproducer4test</module>
+        <module>crdsrcing-nacos-config</module>
+        <module>crdsring-consumer</module>
+        <module>crdsrcing-demo</module>
     </modules>
 
     <build>

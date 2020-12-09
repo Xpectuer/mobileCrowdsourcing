@@ -1,0 +1,22 @@
+2020-12-01 19:20:07,933 INFO [dump-all-ok] crdsrcing.yml+crdsrcing, 1606820092643, length=47, md5=31041a8335810ea55d957fb33056188c
+
+2020-12-01 19:20:07,933 INFO [dump-all-ok] crdsrcing-nacos-config-default.yml+edu.zjut.crowdsourcing, 1606821397972, length=26, md5=7bea1dfe2679b94df2a6e9588416f419
+
+2020-12-01 19:20:07,933 INFO [dump-all-ok] crdsrcing-nacos-config-default+edu.zjut.crowdsourcing, 1606821446631, length=26, md5=7bea1dfe2679b94df2a6e9588416f419
+
+2020-12-01 19:34:22,558 INFO [dump-all-ok] crdsrcing-nacos-config-default.yml+edu.zjut.crowdsourcing, 1606821397972, length=26, md5=7bea1dfe2679b94df2a6e9588416f419
+
+2020-12-01 19:34:22,558 INFO [dump-all-ok] crdsrcing-nacos-config-default+edu.zjut.crowdsourcing, 1606821446631, length=26, md5=7bea1dfe2679b94df2a6e9588416f419
+
+2020-12-01 19:34:22,558 INFO [dump-all-ok] crdsrcing-nacos-config.yml+edu.zjut.crowdsourcing, 1606822132050, length=32, md5=effb04efacb969b12c7f8e5be7626e17
+
+2020-12-01 19:34:22,558 INFO [dump-all-ok] crdsrcing-nacos-config-default.properties+edu.zjut.crowdsourcing, 1606822372560, length=26, md5=7bea1dfe2679b94df2a6e9588416f419
+
+2020-12-01 19:34:22,559 INFO [dump-all-ok] crdsrcing-nacos-config.properties+edu.zjut.crowdsourcing, 1606822415903, length=26, md5=7bea1dfe2679b94df2a6e9588416f419
+
+2020-12-01 19:38:11,004 WARN [dump-ignore] ignore to save cache file. groupKey=crdsrcing-nacos-config-default.properties+edu.zjut.crowdsourcing, md5=7bea1dfe2679b94df2a6e9588416f419, lastModifiedOld=1606822372560, lastModifiedNew=1606822690809
+
+2020-12-01 19:41:51,504 WARN [dump-ignore] ignore to save cache file. groupKey=crdsrcing-nacos-config.properties+edu.zjut.crowdsourcing, md5=7bea1dfe2679b94df2a6e9588416f419, lastModifiedOld=1606822415903, lastModifiedNew=1606822911467
+
+2020-12-01 19:56:55,411 INFO [dump-all-ok] crdsrcing-nacos-config.properties+edu.zjut.crowdsourcing, 1606823692510, length=27, md5=e9aef27e125ab5b77983c60397b89bb6
+
